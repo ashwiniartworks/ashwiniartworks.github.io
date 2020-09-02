@@ -103,7 +103,7 @@
     * ------------------------------------------------------ */
     const ssFinalCountdown = function() {
 
-        const finalDate = '2022/04/07';
+        const finalDate = '2020/10/07';
 
         $('.counter').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
@@ -215,7 +215,7 @@
 
         $.ajaxChimp.translations.es = {
             'submit': 'Submitting...',
-            0: '<i class="fas fa-check"></i> We have sent you a confirmation email',
+            0: '<i class="fas fa-check"></i> I will get in touch with you soon',
             1: '<i class="fas fa-exclamation-triangle"></i> You must enter a valid e-mail address.',
             2: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
             3: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
